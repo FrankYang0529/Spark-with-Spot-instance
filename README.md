@@ -11,8 +11,8 @@ You can get AWS_ACCESS_KEY_ID and AWS_SCRET_KEY_ID from [Security Credentials](h
 You can get key pair from amazon ec2.
 
 Example:
-    key file direction: /Users/frank/test-ec2.pem
-    key pair name: test-ec2
+key file direction: /Users/frank/test-ec2.pem
+key pair name: test-ec2
 
 ### Slave number
 Type an integer which mean how many slave you want.
@@ -21,7 +21,7 @@ Type an integer which mean how many slave you want.
 Type a zone where you want to launch your spot instance.
 
 Example:
-    zone: us-east-1b
+zone: us-east-1b
 
 ### Spot price
 Type an float which mean the max price you want to launch instance.
@@ -30,16 +30,16 @@ Type an float which mean the max price you want to launch instance.
 Type a cluster name which you want.
 
 Example:
-    cluster name: test
+cluster name: test
 
 ### Program name
 Type the program name which you want to run on spot instance.
 
 Example:
-    program name: premovie.py
+program name: premovie.py
 
 ### Program file direction
 Type the program file direction which you put program file on local.
 
 Example:
-    program file direction: /Users/frank/premovie.py
+program file direction: /Users/frank/premovie.py
